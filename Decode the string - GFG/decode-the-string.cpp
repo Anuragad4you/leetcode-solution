@@ -9,7 +9,7 @@ using namespace std;
 
 class Solution{
 public:
-    string decodedString(string s){
+     string decodedString(string s){
 
         stack<pair<string, int>> pr;
 
