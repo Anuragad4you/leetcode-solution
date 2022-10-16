@@ -20,8 +20,10 @@ public:
 
 class Solution{
 public:
-    ListNode *moveToFront(ListNode *head){
+   ListNode *moveToFront(ListNode *head){
         
+        
+       // ListNode newnode=new Listnode(2);
         ListNode *temp=head;
         ListNode * temp2;
         if(head==NULL || head->next==NULL)
