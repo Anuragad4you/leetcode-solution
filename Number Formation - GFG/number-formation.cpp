@@ -8,7 +8,7 @@ using namespace std;
 class Solution {
 
   public:
-   const int mod=1e9+7;
+  const int mod=1e9+7;
     int getSum(int X, int Y, int Z) {
         // Your code goes here
           long long exactsum[X+1][Y+1][Z+1],exactnum[X+1][Y+1][Z+1];
