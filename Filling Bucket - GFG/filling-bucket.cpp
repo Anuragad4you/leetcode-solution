@@ -5,7 +5,7 @@ using namespace std;
 // } Driver Code Ends
 class Solution {
   public:
-   int fillingBucket(int N) {
+    int fillingBucket(int N) {
         int secondLast = 1, last = 1;
         for(int i = 2; i <= N; i++){
             int temp = (last + secondLast) % 100000000;
