@@ -7,7 +7,7 @@ using namespace std;
 // User function Template for C++
 class Solution {
   public:
-     string baseEquiv(int n, int m){
+    string baseEquiv(int n, int m){
 
         // code here
 
