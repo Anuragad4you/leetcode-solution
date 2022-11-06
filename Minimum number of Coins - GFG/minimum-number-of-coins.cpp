@@ -9,7 +9,7 @@ using namespace std;
 
 class Solution{
 public:
-    vector<int> minPartition(int N)
+   vector<int> minPartition(int N)
 
     {
 
