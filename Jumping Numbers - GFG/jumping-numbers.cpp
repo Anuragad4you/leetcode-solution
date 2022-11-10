@@ -5,7 +5,7 @@ using namespace std;
 // } Driver Code Ends
 class Solution {
   public:
-    long long jumpingNums(long long X) {
+   long long jumpingNums(long long X) {
         // code here
         if(X<=10) return X;
         return solve(X);
