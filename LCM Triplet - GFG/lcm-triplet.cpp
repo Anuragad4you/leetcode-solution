@@ -12,7 +12,7 @@ using namespace std;
 
 class Solution {
   public:
-   long long lcmTriplets(long long N) {
+    long long lcmTriplets(long long N) {
         if (N <= 2)
             return N;
         if (N % 2 == 0) {
