@@ -5,7 +5,7 @@ using namespace std;
 // } Driver Code Ends
 class Solution {
 public:
-    long long int MissingNo(vector<vector<int> >& matrix) {
+   long long int MissingNo(vector<vector<int> >& matrix) {
         
         int n = matrix.size();
         vector<long long int> row(n, 0);
