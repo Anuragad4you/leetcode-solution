@@ -7,7 +7,7 @@ using namespace std;
 //User function Template for C++
 class Solution{   
   public:
-   int shortestPath(int num1,int num2)
+    int shortestPath(int num1,int num2)
     {   
         // Complete this function using prime vector
         bool prime[10001];
