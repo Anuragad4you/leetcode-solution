@@ -7,7 +7,7 @@ using namespace std;
 //User function Template for C++
 class Solution{
 public:
- int solve(vector<int>& q,vector<long long>&sum,vector<vector<int>>& arr,unordered_map<int,int>&new_ind){
+  int solve(vector<int>& q,vector<long long>&sum,vector<vector<int>>& arr,unordered_map<int,int>&new_ind){
     long long val = q[0];
     int cnt = 0;
     int s = 0;
