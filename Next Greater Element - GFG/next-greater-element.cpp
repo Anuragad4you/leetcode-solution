@@ -8,7 +8,7 @@ using namespace std;
 
 class Solution {
   public:
-    vector<long long> nextLargerElement(vector<long long> &arr, int n){
+   vector<long long> nextLargerElement(vector<long long> &arr, int n){
         // Your code here
         stack<long long>st;
         vector<long long>v(n,-1);
