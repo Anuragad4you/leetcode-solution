@@ -12,7 +12,7 @@ class Solution
 {
     public:
     //Function to perform case-specific sorting of strings.
-    string caseSort(string str, int n)
+   string caseSort(string str, int n)
     {
         vector<char>v(n);
         for (int i = 0; i<n; i++) {
