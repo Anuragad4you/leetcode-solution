@@ -9,13 +9,14 @@ class Solution{
     string removeConsecutiveCharacter(string s)
     {
         // code here.
-        string s2="";
-        for(int i=0;i<s.length();i++){
-            if(s[i]!=s[i+1]){
-                s2+=s[i];
-            }
+        string s1="";
+        for(int i=0;i<s.length()-1;i++){
+            if(s[i]!=s[i+1])
+             s1+=s[i];
         }
-        return s2;
+       
+        s1+=s[s.size()-1];
+        return s1;
     }
 };
 
